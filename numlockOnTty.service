@@ -2,7 +2,7 @@
 Description=numlock
 
 [Service]
-ExecStart=/usr/local/bin/numlock
+ExecStart=/usr/bin/numlockOnTty
 StandardInput=tty
 RemainAfterExit=yes
 
